@@ -1,0 +1,15 @@
+{
+    "name": "user/cms",
+    "autoload": {
+        "psr-4": {
+            "User\\Cms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruslan",
+            "email": "ruslansorokin234567@gmail.com"
+        }
+    ],
+    "require": {}
+}
