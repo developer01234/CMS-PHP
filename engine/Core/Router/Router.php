@@ -5,6 +5,7 @@ namespace Engine\Core\Router;
 class Router
 {
     private $routes = [];
+    private $dispatcher;
     private $host;
     
     /**
@@ -40,6 +41,11 @@ class Router
     
     public function getDispatcher()
     {
+        if($this->dispatcher == null) 
+        {
+            
+        }
         
+        return $this->dispatcher;
     }
 }
