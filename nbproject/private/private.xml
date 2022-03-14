@@ -9,6 +9,7 @@
             <file>file:/C:/OpenServer/domains/localhost/engine/bootstrap.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Service/Database/Provider.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Service/Router/Provider.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Core/Router/DispatchedRoute.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Controller.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Config/Service.php</file>
         </group>
