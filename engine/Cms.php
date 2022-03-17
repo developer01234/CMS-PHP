@@ -2,6 +2,8 @@
 
 namespace Engine;
 
+use Engine\Helper\Common;
+
 class Cms
 {
     
@@ -31,7 +33,10 @@ class Cms
     public function run()
     {
         //$this->router->add('home', '/', 'HomeController:index');
+        //$routerDispatch = $this->router->dispatch(Common::getMethod());
+        //print_r($this->di);
+        //print_r($_SERVER);
         
-        print_r($this->di);
+        print Common::getPathUrl();
     }
 }
