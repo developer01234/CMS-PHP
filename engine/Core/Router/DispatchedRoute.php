@@ -3,11 +3,16 @@
 namespace Engine\Core\Router;
 
 class DispatchedRoute {
+
     private $controller;
     private $parameters;
 
-    public function __construct($controller, $parameters = [])
-    {
+    /**
+     * DispatchedRoute constructor.
+     * @param $controller
+     * @param array $parameters
+     */
+    public function __construct($controller, $parameters = []) {
         $this->controller = $controller;
         $this->parameters = $parameters;
     }
@@ -15,14 +20,15 @@ class DispatchedRoute {
     /**
      * @return mixed
      */
-
-    public function getController()
-    {
+    public function getController() {
         return $this->controller;
     }
 
-    public function getParameters()
-    {
+    /**
+     * @return array
+     */
+    public function getParameters() {
         return $this->parameters;
     }
+
 }

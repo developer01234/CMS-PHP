@@ -2,45 +2,37 @@
 
 namespace Engine\Helper;
 
-class Common
-{
-    
+class Common {
+
     /**
      * @return bool
      */
-    
-    function isPort()
-    {
-        if($_SERVER['REQUEST_METHOD'] == 'POST')
-        {
+    function isPort() {
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             return true;
         }
-        
+
         return false;
     }
-    
+
     /**
      * @return mixed
      */
-    
-    static function getMethod()
-    {
+    static function getMethod() {
         return $_SERVER['REQUEST_METHOD'];
     }
-    
+
     /**
      * @return bool|string
      */
-    
-    static function getPathUrl()
-    {
+    static function getPathUrl() {
         $pathUrl = $_SERVER['REQUEST_URI'];
-        
-        if($position = strpos($pathUrl, '?'))
-        {
+
+        if ($position = strpos($pathUrl, '?')) {
             $pathUrl = substr($pathUrl, 0, $position);
         }
-        
+
         return $pathUrl;
     }
+
 }
