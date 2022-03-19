@@ -3,16 +3,23 @@
 > Please star this repo if you like ⭐ <br>
 > It's motivates me a lot!
 
-## Stack
+## Installing CMS
 
-<a href="https://www.php.net/"><img src="https://img.icons8.com/dusk/64/000000/php-logo.png"/></a>
+Sorry cms is still in development
 
-## Running the app
+## Learning
 
-```bash
-# started server on port 8080
-$ php -S localhost:8080
-```
+Sorry, the documentation is still in development
+
+## Coding Standards
+
+Please follow the following guides and code standards:
+
+* [PSR 4 Coding Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)
+
+## Security Vulnerabilities
+
+Please review [our security policy](https://github.com/developer01234/CMS-PHP/tree/main) on how to report security vulnerabilities.
 
 ## Authors
 
