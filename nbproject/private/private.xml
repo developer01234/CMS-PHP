@@ -14,8 +14,9 @@
             <file>file:/C:/OpenServer/domains/localhost/engine/Cms.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Core/Router/Router.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Core/Database/Connection.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/cms/Controller/CmsController.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/cms/Controller/ErrorController.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/bootstrap.php</file>
-            <file>file:/C:/OpenServer/domains/localhost/README.md</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Service/AbstractProvider.php</file>
         </group>
     </open-files>

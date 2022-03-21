@@ -2,12 +2,18 @@
 
 namespace Cms\Controller;
 
-use Engine\Controller;
+class HomeController extends CmsController {
 
-class HomeController extends Controller {
+    public function index() {
+        echo 'Index Page';
+    }
 
-    public function __construct($di) {
-        parent::__construct($di);
+    public function user() {
+        echo 'User page';
+    }
+    
+    public function news() {
+        
     }
 
 }
