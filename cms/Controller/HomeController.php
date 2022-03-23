@@ -5,13 +5,9 @@ namespace Cms\Controller;
 class HomeController extends CmsController {
 
     public function index() {
-        echo 'Index Page';
+        $this->view->render('index');
     }
 
-    public function user() {
-        echo 'User page';
-    }
-    
     public function news($id) {
         echo $id;
     }
