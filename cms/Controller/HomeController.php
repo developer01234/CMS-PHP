@@ -12,8 +12,8 @@ class HomeController extends CmsController {
         echo 'User page';
     }
     
-    public function news() {
-        
+    public function news($id) {
+        echo $id;
     }
 
 }
