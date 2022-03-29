@@ -2,8 +2,10 @@
 
 namespace Admin\Controller;
 
-class LoginController {
+class LoginController  extends AdminController {
+
     public function form() {
-        echo 'Hello, World!';
+        $this->view->render('login');
     }
+
 }
