@@ -62,7 +62,7 @@ class View {
                 ROOT_DIR . '/content/themes/default/' . $template . '.php';
                 break;
             default:
-                ROOT_DIR . '/' . mb_strtolower($env) . '/View/' . $template . '.php';
+                return ROOT_DIR . '/View/' . $template . '.php';
         }
     }
 
