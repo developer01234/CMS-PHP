@@ -54,16 +54,11 @@ class View {
      * @return string
      */
     public function getTemplatePath($template, $env = null) {
-        switch ($env) {
-            case 'Admin':
-                return ROOT_DIR . '/View/' . $template . '.php';
-                break;
-            case 'Cms':
-                ROOT_DIR . '/content/themes/default/' . $template . '.php';
-                break;
-            default:
-                return ROOT_DIR . '/View/' . $template . '.php';
+        if ($env == 'Cms') {
+            return ROOT_DIR . '/content/themes/default/' . $template . '.php';
         }
+        
+        return ROOT_DIR . '/View/' . $template . '.php';
     }
 
 }
