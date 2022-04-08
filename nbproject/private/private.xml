@@ -4,24 +4,24 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/OpenServer/domains/localhost/content/themes/default/header.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Helper/Cookie.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Core/Auth/Auth.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Core/Auth/AuthInterface.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/Controller/ErrorController.php</file>
             <file>file:/C:/OpenServer/domains/localhost/content/themes/default/index.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/.htaccess</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Service/Router/Provider.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Controller.php</file>
             <file>file:/C:/OpenServer/domains/localhost/index.php</file>
-            <file>file:/C:/OpenServer/domains/localhost/engine/Config/Service.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Cms.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/Route.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Core/Config/Config.php</file>
-            <file>file:/C:/OpenServer/domains/localhost/admin/View/login.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Core/Template/View.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/index.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/Controller/DashboardController.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/View/dashboard.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Core/Template/Theme.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Service/Config/Provider.php</file>
-            <file>file:/C:/OpenServer/domains/localhost/admin/Config/main.php</file>
         </group>
     </open-files>
 </project-private>
