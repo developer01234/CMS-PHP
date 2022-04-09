@@ -3,6 +3,7 @@
 namespace Engine\Core\Database;
 
 use \PDO;
+use Engine\Core\Config\Config;
 
 class Connection {
 
@@ -19,13 +20,7 @@ class Connection {
      * @return $this
      */
     private function connect() {
-        $config = [
-            'host' => 'localhost',
-            'db_name' => 'test',
-            'username' => 'root',
-            'password' => '',
-            'charset' => 'utf8',
-        ];
+        $config = Config::file('database');
 
         $dsn = 'mysql:host=' . $config['host'] . ';dbname=' . $config['db_name'] . ';charset=' . $config['charset'];
 

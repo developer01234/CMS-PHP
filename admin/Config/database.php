@@ -2,5 +2,8 @@
 
 return [
     'host' => 'localhost',
-    'username' => 'root'
+    'db_name' => 'cms',
+    'username' => 'root',
+    'password' => '',
+    'charset' => 'utf8',
 ];

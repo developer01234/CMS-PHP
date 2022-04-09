@@ -13,15 +13,20 @@
             <file>file:/C:/OpenServer/domains/localhost/engine/Service/Router/Provider.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Controller.php</file>
             <file>file:/C:/OpenServer/domains/localhost/index.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Config/Service.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Service/Request/Provider.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Cms.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/Route.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Core/Config/Config.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Core/Database/Connection.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Core/Request/Request.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Core/Template/View.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/index.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/admin/Config/database.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/Controller/DashboardController.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/View/dashboard.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Core/Template/Theme.php</file>
-            <file>file:/C:/OpenServer/domains/localhost/engine/Service/Config/Provider.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/admin/Controller/AdminController.php</file>
         </group>
     </open-files>
 </project-private>
