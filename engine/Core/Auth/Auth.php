@@ -9,7 +9,7 @@ class Auth implements AuthInterface {
     /**
      * @var bool
      */
-    protected $authorized = false;
+    public $authorized = false;
     protected $user;
 
     /**
