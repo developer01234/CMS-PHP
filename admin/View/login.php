@@ -30,7 +30,7 @@
 
         <div class="container">
 
-            <form class="form-signin" role="form">
+            <form class="form-signin" role="form" method="POST" action="/admin/auth/">
                 <h2 class="form-signin-heading">Login to CMS</h2>
                 <input type="email" class="form-control" placeholder="Email" required autofocus>
                 <input type="password" class="form-control" placeholder="Password" required>
