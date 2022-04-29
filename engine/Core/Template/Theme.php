@@ -97,7 +97,7 @@ class Theme {
     /**
      * @param array $data
      */
-    public function setData() {
+    public function setData($data) {
         $this->data = $data;
     }
 

@@ -31,12 +31,14 @@ class Connection {
 
     /**
      * @param $sql
+     * @param array $values
      * @return mixed
      */
-    private function execute($sql) {
+    public function execute($sql, $values = [])
+    {
         $sth = $this->link->prepare($sql);
 
-        return $sth->execute();
+        return $sth->execute($values);
     }
 
     /**

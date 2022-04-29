@@ -10,7 +10,7 @@ class Auth implements AuthInterface {
      * @var bool
      */
     protected $authorized = false;
-    protected $user;
+    protected $hash_user;
 
     /**
      * @return bool
@@ -22,8 +22,8 @@ class Auth implements AuthInterface {
     /**
      * @return mixed
      */
-    public function user() {
-        return $this->user;
+    public function hashUser() {
+        return Cookie::get('auth_user');
     }
 
     /**
@@ -35,7 +35,7 @@ class Auth implements AuthInterface {
         Cookie::set('auth_user', $user);
 
         $this->authorized = true;
-        $this->user = $user;
+        $this->hash_user = $user;
     }
 
     /**
