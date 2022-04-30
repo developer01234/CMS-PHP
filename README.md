@@ -5,7 +5,26 @@
 
 ## Installing CMS
 
-Sorry cms is still in development
+```
+git clone https://github.com/developer01234/CMS-PHP.git
+
+composer update
+
+php -S localhost:8000
+```
+
+Example /config/database.php
+
+```
+<?php
+return [
+    'host'     => 'localhost',
+    'db_name'  => 'cms',
+    'username' => 'root',
+    'password' => '',
+    'charset'  => 'utf8'
+];
+```
 
 ## Learning
 
@@ -15,7 +34,7 @@ Sorry, the documentation is still in development
 
 Please follow the following guides and code standards:
 
-* [PSR 4 Coding Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)
+- [PSR 4 Coding Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)
 
 ## Security Vulnerabilities
 
@@ -23,8 +42,8 @@ Please review [our security policy](https://github.com/developer01234/CMS-PHP/tr
 
 ## Authors
 
-* **[Ruslan Shvetsov](https://github.com/developer01234)**
-* See also the list of **[contributors](https://github.com/developer01234/CMS-PHP/graphs/contributors)** who participated in this project.
+- **[Ruslan Shvetsov](https://github.com/developer01234)**
+- See also the list of **[contributors](https://github.com/developer01234/CMS-PHP/graphs/contributors)** who participated in this project.
 
 ## License
 
