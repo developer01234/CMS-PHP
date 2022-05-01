@@ -23,10 +23,6 @@ class LoginController extends Controller {
         $this->auth = new Auth();
 
         if ($this->auth->hashUser() !== null) {
-            $this->auth->authorize($this->auth->hashUser());
-        }
-
-        if ($this->auth->authorized()) {
             // redirect
             header('Location: /admin/', true, 301);
             exit;
@@ -34,12 +30,6 @@ class LoginController extends Controller {
     }
 
     public function form() {
-        $this->auth->authorize('test');
-
-        if ($this->auth->authorized()) {
-            print_r($_COOKIE);
-        }
-
         $this->view->render('login');
     }
 
