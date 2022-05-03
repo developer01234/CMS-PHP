@@ -1,4 +1,9 @@
-<h3 align="center">CMS-PHP</h3>
+<div align="center">
+<a href="https://github.com/developer01234/CMS-PHP">
+  <img src="images/logo.png" alt="Logo" width="80" height="80">
+</a>
+</div>
+<h3 align="center">OREL-CMS</h3>
 
 > Please star this repo if you like ⭐ <br>
 > It's motivates me a lot!
