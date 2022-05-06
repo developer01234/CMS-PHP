@@ -26,11 +26,21 @@ class QueryBuilder {
     }
 
     /**
+     * @return $this
+     */
+    public function delete() {
+        $this->reset();
+        $this->sql['delete'] = "DELETE ";
+
+        return $this;
+    }
+
+    /**
      * @param $table
      * @return $this
      */
     public function from($table) {
-        $this->sql['from'] = "FROM {$table}";
+        $this->sql['from'] = "FROM {$table} ";
 
         return $this;
     }
@@ -42,8 +52,8 @@ class QueryBuilder {
      * @return $this
      */
     public function where($column, $value, $operator = '=') {
-        $this->sql['where'][] = "{$column} {$operator} :{$column}";
-        $this->values[$column] = $value;
+        $this->sql['where'][] = "{$column} {$operator} ?";
+        $this->values[] = $value;
 
         return $this;
     }
@@ -80,6 +90,13 @@ class QueryBuilder {
         return $this;
     }
 
+    public function insert($table) {
+        $this->reset();
+        $this->sql['insert'] = "INSERT INTO {$table} ";
+
+        return $this;
+    }
+
     /**
      * @param array $data
      * @return $this
@@ -89,8 +106,11 @@ class QueryBuilder {
 
         if (!empty($data)) {
             foreach ($data as $key => $value) {
-                $this->sql['set'] .= "{$key} = :{$key}";
-                $this->values[$key] = $value;
+                $this->sql['set'] .= "{$key} = ?";
+                if (next($data)) {
+                    $this->sql['set'] .= ", ";
+                }
+                $this->values[] = $value;
             }
         }
 

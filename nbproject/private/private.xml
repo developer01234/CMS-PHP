@@ -5,12 +5,15 @@
         <group>
             <file>file:/C:/OpenServer/domains/localhost/admin/Controller/LoginController.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Core/Database/Connection.php</file>
-            <file>file:/C:/OpenServer/domains/localhost/engine/Core/Database/QueryBuilder.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Model.php</file>
             <file>file:/C:/OpenServer/domains/localhost/engine/Core/Auth/Auth.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/Model/User/UserRepository.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Service/Load/Provider.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/Model/User/User.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/Controller/DashboardController.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Load.php</file>
             <file>file:/C:/OpenServer/domains/localhost/admin/Controller/AdminController.php</file>
+            <file>file:/C:/OpenServer/domains/localhost/engine/Config/Service.php</file>
         </group>
     </open-files>
 </project-private>
